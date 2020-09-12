@@ -89,4 +89,14 @@ class: title-slide
 
 <img src="excel1.gif" style="width: 100%" class="center"/>
 
+---
 
+## Excel: Simple functions
+
+<img src="excel2.gif" style="width: 100%" class="center"/>
+
+---
+
+## Excel: Combining functions
+
+<img src="excel3.gif" style="width: 100%" class="center"/>
