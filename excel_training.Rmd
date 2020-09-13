@@ -168,6 +168,19 @@ class: highlight-last-item
 
 ---
 
+## Visualizing data: One variable
+
+<img src="histogram.gif" style="width: 100%" class="center"/>
+
+---
+
+## Visualizing data: Multiple variables
+
+<img src="pivot_chart.gif" style="width: 100%" class="center"/>
+
+
+---
+
 ## Troubleshooting
 
 <img src="help.gif" style="width: 100%" class="center"/>
