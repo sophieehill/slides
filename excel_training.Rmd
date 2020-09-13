@@ -1,12 +1,12 @@
 ---
-title: Comments
+title: Excel training
 subtitle: 
 author: Sophie Hill
 date: 
 company: "Harvard University"
 output: 
   xaringan::moon_reader:
-    css: ["xaringan-themer.css", "mycss.css"]
+    css: ["xaringan-themer.css", "highlight.css", "mycss.css"]
     seal: false
     nature:
       countIncrementalSlides: false
@@ -17,6 +17,7 @@ header-includes:
   - \usepackage{amsmath} # equations
   - \usepackage{xcolor} # change text color in equation
 ---
+
 
 ```{r setup, include=FALSE}
 library(knitr)
@@ -62,13 +63,16 @@ extra_css <- list(
     "margin-right" = "auto",
       "width" = "50%"),
   ".large" = list(
-    "font-size" = "1.5rem")
+    "font-size" = "1.5rem"),
+  ".remark-slide-number" = list(
+    "opacity" = 0)
   )
 
 style_extra_css(css = extra_css, outfile = "mycss.css")
 
 
 ```
+
 
 class: title-slide
 
@@ -77,26 +81,118 @@ class: title-slide
 <hr> 
 
 <div class="bottom">
-<p> Sophie Hill </p>
-<p> Harvard University </p>
 <p> September 2020 </p>
 
 </div>
 
 ---
 
-## Excel: Tables
+## Cleaning data: formatting cells
 
-<img src="excel1.gif" style="width: 100%" class="center"/>
-
----
-
-## Excel: Simple functions
-
-<img src="excel2.gif" style="width: 100%" class="center"/>
+<img src="formatting.gif" style="width: 100%" class="center"/>
 
 ---
 
-## Excel: Combining functions
+## Cleaning data: CONCAT
 
-<img src="excel3.gif" style="width: 100%" class="center"/>
+<img src="concat.gif" style="width: 100%" class="center"/>
+
+---
+
+## Analyzing data: Tables
+
+<img src="table.png" style="width: 100%" class="center"/>
+
+---
+
+## Analyzing data: Tables
+
+<img src="table2.png" style="width: 100%" class="center"/>
+
+---
+
+## Analyzing data: Tables
+
+<img src="table3.png" style="width: 100%" class="center"/>
+
+---
+
+## Analyzing data: Tables
+
+<img src="table4.png" style="width: 100%" class="center"/>
+
+---
+
+## Analyzing data: Conditional functions
+
+<img src="countif.gif" style="width: 100%" class="center"/>
+
+---
+
+class: highlight-last-item
+
+## Analyzing data: Useful functions
+
+- SUM 
+
+--
+- COUNT / COUNTA / COUNTBLANK
+
+--
+- ABS
+
+--
+- AVERAGE
+
+--
+- MEDIAN
+  + PERCENTILE is a more general version
+
+--
+- MODE
+
+--
+- MIN / MAX
+
+--
+  + LARGE / SMALL are more general versions
+  + e.g. LARGE(A1:A5, .red[3]) = the .red[3rd] largest number
+
+--
+- Conditional functions:
+  + IF
+  + SUMIF
+  + COUNTIF
+  + AVERAGEIF
+  + MAXIF / MINIF
+
+---
+
+## Troubleshooting
+
+<img src="help.gif" style="width: 100%" class="center"/>
+
+---
+
+## Resources
+
+**For general learning:**
+
+- LinkedIn Learning Excel courses (available through HKS)
+
+--
+
+<br>
+
+**For specific questions:**
+- Google
+
+--
+
+- The teaching team
+
+--
+
+
+- Each other! (Canvas, Slack)
+
